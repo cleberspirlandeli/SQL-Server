@@ -1,0 +1,13 @@
+-- ENCONTRAR TRIGGERS
+select OBJECT_NAME(parent_id) as tabela,* 
+from sys.triggers
+where OBJECT_NAME(parent_id) = 'nome da tabela'
+
+
+
+
+-- ENCONTRAR TODOS OS OBJETOS RELACIONADOS A TABELA
+DECLARE @Search AS VARCHAR(100)
+SET @Search = 'tabela'
+
+SELECT OBJECT_NAME(ID) AS Nome FROM syscomments WHERE Text LIKE ('%'+ @Search +'%')
