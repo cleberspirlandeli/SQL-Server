@@ -84,7 +84,7 @@ BEGIN
 		SET @number2  = @number1 * 10
 		SET @number3  = CAST(REPLACE(@number1, '.','') AS INTEGER)
 
-		IF @i / 2 = 0
+		IF @i % 2 = 0
 			SET @numberBIT = 0
 		ELSE 
 			SET @numberBIT = 1
@@ -202,3 +202,25 @@ SELECT CONVERT(varchar(255), NEWID()) + CONVERT(varchar(255), NEWID()) + CONVERT
 SELECT RAND() * 1000
 
 DELETE DATA_MASS01
+
+
+SELECT TOP 100 * FROM USERS
+SELECT TOP 5 * FROM DATA_MASS01 WHERE number1 = 0
+
+SELECT COUNT(ID) FROM DATA_MASS01 WHERE number1 = 0
+
+
+UPDATE DATA_MASS01
+   SET number1 = CASE WHEN (id % 2 = 0) THEN 1 ELSE 0 END
+
+
+
+
+
+
+
+-- ROWS
+-- TIME
+SELECT max(id) 
+  FROM DATA_MASS01 M01 
+ INNER JOIN USERS  USR ON USR.id = M01.id 
