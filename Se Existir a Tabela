@@ -1,0 +1,5 @@
+-- Se existe a tabela faça algo.
+IF (OBJECT_ID('dbo.NOMETABELA') IS NOT NULL) 
+BEGIN
+	DROP TABLE dbo.NOMETABELA
+END
