@@ -1,4 +1,4 @@
--- Quando retorna 1 est· Desabilitado. Se retornar 0 est· Habilitado.
+-- Quando retorna 1 est√° Desabilitado. Se retornar 0 est√° Habilitado.
 Select (
          Select name 
            from sysobjects x 
@@ -11,6 +11,15 @@ From sysobjects tr
 Where xtype = 'tr' and 
       name not like 'log%' and 
       Name = 'RAG01600' -- NOME DA TRIGGER
--- Na linha acima, na parte do NAME NOT LIKE, eliminamos as triggers que s„o do log de auditoria. 
--- Se quiser visualizar estes tambÈm, deixe no Where apenas a parte XTYPE = 'TR'
+-- Na linha acima, na parte do NAME NOT LIKE, eliminamos as triggers que s√£o do log de auditoria. 
+-- Se quiser visualizar estes tamb√©m, deixe no Where apenas a parte XTYPE = 'TR'
 Order by Tabela, Name
+
+
+
+
+
+
+-- Habilitar Trigger ou Desabilitar Trigger
+alter table dbo.rat02000 disable trigger all
+alter table dbo.rat02000 enable trigger all
