@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[ABC12300] ( 
+         [id][int] IDENTITY (1, 1) NOT NULL, 
+         [idpasse][int] NOT NULL, 
+         [tipomovto][tinyint] NOT NULL, 
+         [datamovto][datetime] NOT NULL, 
+         [seqmovtovt][tinyint] NOT NULL, 
+         [qtdemovto][int] NOT NULL, 
+         [qtdecreditos][int] NOT NULL, 
+         [statmovto][tinyint] NOT NULL, 
+         [precoatual][decimal] (5,2) NULL, 
+         [valormovto][decimal] (9,2) AS ([qtdecreditos]*[precoatual]),
+         [idparvt][int] NULL, 
+ ) 
+GO
