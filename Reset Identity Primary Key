@@ -1,1 +1,6 @@
+
+-- Iniciar novamente no ID 800
+-- 800 é de onde a chave primaria deve recomeçar
+-- próximo ID será 800
+
 DBCC CHECKIDENT('RFT00900', RESEED, 800)
