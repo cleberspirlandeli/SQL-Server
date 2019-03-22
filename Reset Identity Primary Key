@@ -3,4 +3,4 @@
 -- 800 é de onde a chave primaria deve recomeçar
 -- próximo ID será 800
 
-DBCC CHECKIDENT('RFT00900', RESEED, 800)
+DBCC CHECKIDENT('XXT00900', RESEED, 800)
