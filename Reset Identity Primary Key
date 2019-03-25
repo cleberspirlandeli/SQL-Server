@@ -3,10 +3,11 @@
 -- 800 é de onde a chave primaria deve recomeçar
 -- próximo ID será 800
 
-DBCC CHECKIDENT('tabela', RESEED, 800)
+DBCC CHECKIDENT('table', RESEED, 800)
 
 
 
 -- ENCONTRAR O NÚMERO ATUAL DA PRIMARY KEY E O PRÓXIMO NÚMERO DA PRIMARY KEY
-SELECT 'CURRENT_ID' = IDENT_CURRENT('tabela') + IDENT_INCR('tabela'),
-   	   'NEXT_ID'	= IDENT_CURRENT('tabela')
+SELECT 'CURRENT_ID'	= IDENT_CURRENT('table'),
+       'NEXT_ID' = IDENT_CURRENT('table') + IDENT_INCR('table')
+   	   
