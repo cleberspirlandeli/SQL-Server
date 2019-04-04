@@ -6,4 +6,4 @@ Scripts generally in T-SQL Server
 
 
 
-[logo]: https://cdn-images-1.medium.com/max/1600/1*4_n18FH8hRrvlLyRufD1sQ.png "Magalu-Finger"
+[logo]: //d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png "logo"
