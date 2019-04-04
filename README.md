@@ -9,7 +9,7 @@ Date and Time Conversions Using SQL Server <br />
 <br />
 <br />
 
-**Formato de Datas** <br />
+**FORMATO DE DATAS** <br />
 **Format - Query                                    - Resultado Exemplo** <br />
   1	     - SELECT CONVERT(VARCHAR, GETDATE(), 1)	  - 12/30/19 <br />
   2	     - SELECT CONVERT(VARCHAR, GETDATE(), 2)	  - 19.12.30 <br />
@@ -36,7 +36,7 @@ Date and Time Conversions Using SQL Server <br />
 <br />
 <br />
 
-**Formato de Horas** <br />
+**FORMATO DE HORAS** <br />
 **Format - Query                                    - Resultado Exemplo** <br />
 8	  - SELECT CONVERT(VARCHAR, GETDATE(), 8)         - 00:38:54 <br />
 14	- SELECT CONVERT(VARCHAR, GETDATE(), 14)        - 00:38:54:840 <br />
@@ -47,7 +47,7 @@ Date and Time Conversions Using SQL Server <br />
 <br />
 <br />
 
-**Formato de Datas e Horas** <br />
+**FORMATO DE DATAS E HORAS** <br />
 **Format - Query                                    - Resultado Exemplo** <br />
 0	   - SELECT CONVERT(VARCHAR, GETDATE(), 0)        - DEC 19 2006 12:38AM
 9	   - SELECT CONVERT(VARCHAR, GETDATE(), 9)        - DEC 30 2019 12:38:54:840AM
@@ -66,7 +66,8 @@ Date and Time Conversions Using SQL Server <br />
 
 <br />
 <br />
-**Remover pontos traços**<br />
+
+**REMOVER PONTOS TRAÇOS**<br />
 SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') <br />
 12302019 <br />
 
