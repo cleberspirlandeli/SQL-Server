@@ -28,7 +28,8 @@ Date and Time Conversions Using SQL Server <br />
   111    - SELECT CONVERT(VARCHAR, GETDATE(), 111)	- 2019/12/30 <br />
   112    - SELECT CONVERT(VARCHAR, GETDATE(), 112)	- 20191230 <br />
 
-
+<br />
+<br />
 
 **Formato de Horas** <br />
 **Format - Query                                    - Resultado Exemplo** <br />
@@ -37,6 +38,9 @@ Date and Time Conversions Using SQL Server <br />
 24	- SELECT CONVERT(VARCHAR, GETDATE(), 24)        - 00:38:54 <br />
 108 - SELECT CONVERT(VARCHAR, GETDATE(), 108)       - 00:38:54 <br />
 114 - SELECT CONVERT(VARCHAR, GETDATE(), 114)       - 00:38:54:840 <br />
+
+<br />
+<br />
 
 **Formato de Datas e Horas** <br />
 **Format - Query                                    - Resultado Exemplo** <br />
@@ -55,7 +59,16 @@ Date and Time Conversions Using SQL Server <br />
 126  - SELECT CONVERT(VARCHAR, GETDATE(), 126)      - 2019-12-30T00:38:54.840
 127  - SELECT CONVERT(VARCHAR, GETDATE(), 127)      - 2019-12-30T00:38:54.840
 
+<br />
+<br />
+**Remover pontos traços**<br />
+SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') <br />
+12302019 <br />
 
-**Remover pontos traços**
-SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','')	- 12302019
-SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') - 12302019004426
+<br />
+<br />
+SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') <br />
+12302019004426 <br />
+
+<br />
+<br />
