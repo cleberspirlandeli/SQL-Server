@@ -3,7 +3,7 @@ Scripts generally in T-SQL Server
 
 ___
 
-Date and Time Conversions Using SQL Server
+Date and Time Conversions Using SQL Server <br />
 **Formato de Datas** <br />
 **Format - Query                                    - Resultado Exemplo** <br />
   1	     - SELECT CONVERT(VARCHAR, GETDATE(), 1)	  - 12/30/19 <br />
