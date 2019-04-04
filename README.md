@@ -1,4 +1,4 @@
-[logo]
+![alt text][logo]
 
 
 # SQL-Server
@@ -81,6 +81,11 @@ Resultado Exemplo: 12302019004426 <br />
 
 <br />
 <br />
+
+___
+
+### License
+Copyright (c) 2017 Cleber R. Spirlandeli (contato.spirlandeli@gmail.com)
 
 
 [logo]: //d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png "SQL Server"
