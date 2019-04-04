@@ -69,12 +69,12 @@ Date and Time Conversions Using SQL Server <br />
 
 **REMOVER PONTOS TRAÇOS**<br />
 SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') <br />
-12302019 <br />
+Resultado Exemplo: 12302019 <br />
 
 <br />
 <br />
 SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') <br />
-12302019004426 <br />
+Resultado Exemplo: 12302019004426 <br />
 
 <br />
 <br />
