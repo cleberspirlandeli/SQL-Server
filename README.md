@@ -1,4 +1,4 @@
-[logo]
+![alt text][logo]
 
 # SQL-Server
 Scripts generally in T-SQL Server
