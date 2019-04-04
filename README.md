@@ -1,6 +1,3 @@
-![alt text](//d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png)
-![Alt text](//d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png "SQLServer")
-
 # SQL-Server
 Scripts generally in T-SQL Server
 
@@ -88,4 +85,9 @@ ___
 Copyright (c) 2017 Cleber R. Spirlandeli (contato.spirlandeli@gmail.com)
 
 
-[logo]: //d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png "SQL Server"
+TesteAAA | TesteBBB
+--------- | ------
+AAA     | R$ 10
+BBB    | R$ 8
+CCC    | R$ 7
+DDD    | R$ 8
