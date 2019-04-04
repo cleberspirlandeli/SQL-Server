@@ -4,7 +4,7 @@ Scripts generally in T-SQL Server
 ___
 
 Date and Time Conversions Using SQL Server
-
+**Formato de Datas**
 **Format - Query                                    - Resultado Exemplo** <br />
   1	     - SELECT CONVERT(VARCHAR, GETDATE(), 1)	  - 12/30/19 <br />
   2	     - SELECT CONVERT(VARCHAR, GETDATE(), 2)	  - 19.12.30 <br />
@@ -27,3 +27,13 @@ Date and Time Conversions Using SQL Server
   110    - SELECT CONVERT(VARCHAR, GETDATE(), 110)	- 12-30-2019 <br />
   111    - SELECT CONVERT(VARCHAR, GETDATE(), 111)	- 2019/12/30 <br />
   112    - SELECT CONVERT(VARCHAR, GETDATE(), 112)	- 20191230 <br />
+
+
+
+**Formato de Horas** 
+**Format - Query                                    - Resultado Exemplo** <br />
+8	  - SELECT CONVERT(VARCHAR, GETDATE(), 8)   - 00:38:54
+14	- SELECT CONVERT(VARCHAR, GETDATE(), 14)  - 00:38:54:840
+24	- SELECT CONVERT(VARCHAR, GETDATE(), 24)  - 00:38:54
+108 - SELECT CONVERT(VARCHAR, GETDATE(), 108) - 00:38:54
+114 - SELECT CONVERT(VARCHAR, GETDATE(), 114) - 00:38:54:840
