@@ -10,6 +10,7 @@ Date and Time Conversions Using SQL Server <br />
 <br />
 
 **FORMATO DE DATAS** <br />
+
 Format    | Query     | Resultado Exemplo
 --------- | --------- | ---------
   1	   | SELECT CONVERT(VARCHAR, GETDATE(), 1)	    | 12/30/19
