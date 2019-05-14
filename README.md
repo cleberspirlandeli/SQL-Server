@@ -39,12 +39,13 @@ Format    | Query     | Resultado Exemplo
 <br />
 
 **FORMATO DE HORAS** <br />
-**Format - Query                                    - Resultado Exemplo** <br />
-8	  - SELECT CONVERT(VARCHAR, GETDATE(), 8)         - 00:38:54 <br />
-14	- SELECT CONVERT(VARCHAR, GETDATE(), 14)        - 00:38:54:840 <br />
-24	- SELECT CONVERT(VARCHAR, GETDATE(), 24)        - 00:38:54 <br />
-108 - SELECT CONVERT(VARCHAR, GETDATE(), 108)       - 00:38:54 <br />
-114 - SELECT CONVERT(VARCHAR, GETDATE(), 114)       - 00:38:54:840 <br />
+
+Format | Query  Resultado Exemplo
+8	| SELECT CONVERT(VARCHAR, GETDATE(), 8)         | 00:38:54
+14	| SELECT CONVERT(VARCHAR, GETDATE(), 14)        | 00:38:54:840
+24	| SELECT CONVERT(VARCHAR, GETDATE(), 24)        | 00:38:54
+108 | SELECT CONVERT(VARCHAR, GETDATE(), 108)       | 00:38:54
+114 | SELECT CONVERT(VARCHAR, GETDATE(), 114)       | 00:38:54:840
 
 <br />
 <br />
