@@ -78,7 +78,8 @@ Format | Query                                    | Resultado Exemplo
 Query |   Resultado
 ------- | -------
 SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') | 12302019 
-SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') | 12302019004426
+SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + <br />
+REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') | 12302019004426
 
 <br />
 <br />
