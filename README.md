@@ -74,8 +74,10 @@ Format | Query                                    | Resultado Exemplo
 <br />
 
 **REMOVER PONTOS TRAÇOS**<br />
-SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') <br />
-Resultado Exemplo: 12302019 <br />
+
+Query | SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','')  
+------- | -------
+Resultado Exemplo | 12302019 
 
 <br />
 <br />
@@ -89,15 +91,3 @@ ___
 
 ### License
 Copyright (c) 2017 Cleber R. Spirlandeli (contato.spirlandeli@gmail.com)
-
-
-
-
-
-
-TesteAAA | TesteBBB
---------- | ------
-AAA     | R$ 10
-BBB    | R$ 8
-CCC    | R$ 7
-DDD    | R$ 8
