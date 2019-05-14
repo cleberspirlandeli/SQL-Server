@@ -40,8 +40,9 @@ Format    | Query     | Resultado Exemplo
 
 **FORMATO DE HORAS** <br />
 
-Format | Query  Resultado Exemplo
-8	| SELECT CONVERT(VARCHAR, GETDATE(), 8)         | 00:38:54
+Format    | Query     | Resultado Exemplo
+--------- | --------- | ---------
+8	  | SELECT CONVERT(VARCHAR, GETDATE(), 8)         | 00:38:54
 14	| SELECT CONVERT(VARCHAR, GETDATE(), 14)        | 00:38:54:840
 24	| SELECT CONVERT(VARCHAR, GETDATE(), 24)        | 00:38:54
 108 | SELECT CONVERT(VARCHAR, GETDATE(), 108)       | 00:38:54
