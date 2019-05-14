@@ -75,14 +75,10 @@ Format | Query                                    | Resultado Exemplo
 
 **REMOVER PONTOS TRAÇOS**<br />
 
-Query | SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','')  
+Query |   Resultado
 ------- | -------
-Resultado Exemplo | 12302019 
-
-<br />
-<br />
-SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') <br />
-Resultado Exemplo: 12302019004426 <br />
+SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') | 12302019 
+SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + REPLACE(CONVERT(VARCHAR, GETDATE(),108),':','') | 12302019004426
 
 <br />
 <br />
