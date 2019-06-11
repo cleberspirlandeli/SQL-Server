@@ -83,6 +83,11 @@ SELECT REPLACE(CONVERT(VARCHAR, GETDATE(),101),'/','') + <br /> REPLACE(CONVERT(
 <br />
 <br />
 
+
+SQL Server Import and Export Wizard
+SQL Server Profiler
+<br />
+<br />
 ___
 
 ### License
