@@ -1,5 +1,7 @@
 # SQL-Server
-Scripts generally in T-SQL Server
+> Scripts generally in T-SQL Server
+![image](http://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png)
+<br />
 
 ___
 <br />
@@ -93,13 +95,6 @@ ___
 
 ### License
 Copyright (c) 2017 Cleber R. Spirlandeli (contato.spirlandeli@gmail.com)
-
-
-
-![image](http://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png)
-<br />
-<br />
-<br />
 <br />
 
-![Project Image](https://github.com/jamesqquick/markdown-worksheet/blob/master/screenshot.png)
+
