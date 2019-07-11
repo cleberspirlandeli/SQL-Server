@@ -1,7 +1,5 @@
-# SQL-Server 
-<br />
-> Scripts generally in T-SQL Server
-<br />
+# SQL-Server <br />
+> Scripts generally in T-SQL Server <br />
 ![image](http://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png)
 <br />
 
